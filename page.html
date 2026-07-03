@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TriByte | Affordable Premium Web Solutions</title>
+
+    <!-- Google Fonts: Inter & Space Grotesk for Tech Aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar glass">
+        <div class="nav-inner">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <img src="Logo.png" alt="Logo image">
+                </div>
+                <div class="logo-text-wrap">
+                    <span class="logo-title">Tri<span class="accent">Byte</span></span>
+                    <span class="logo-sub">Web Architects</span>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#calculator" class="nav-link">Estimator</a>
+                <a href="#team" class="nav-link">Our Team</a>
+                <a href="#contact" class="nav-cta">Let's Talk</a>
+            </nav>
+
+            <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="mobile-menu glass hidden">
+            <a href="#services">Services</a>
+            <a href="#calculator">Estimator</a>
+            <a href="#team">Our Team</a>
+            <a href="#contact" class="nav-cta">Get a Quote</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+
+        <div class="container hero-grid">
+            <div class="hero-copy">
+                <div class="badge">
+                    <span class="badge-dot"></span>
+                    Premium Designs. Unbeatable Value.
+                </div>
+                <h1 class="hero-title">
+                    We Build Beautiful Websites That <span class="text-gradient-primary">Don't Break Your Bank.</span>
+                </h1>
+                <p class="hero-desc">
+                    TriByte combines top-tier Design, robust Backend Systems, and custom AI Integrations to elevate your business online at a cost you can easily afford.
+                </p>
+                <div class="hero-buttons">
+                    <!-- <a href="#calculator" class="btn btn-primary">
+                        <i class="fa-solid fa-calculator"></i>Estimate Project
+                    </a> -->
+                    <a href="#contact" class="btn btn-secondary">
+                        Get Free Consultation
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <div class="stat-value">3-in-1</div>
+                        <div class="stat-label">Design, DB & AI Specs</div>
+                    </div>
+                    <div>
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Responsive Designs</div>
+                    </div>
+                    <div>
+                        <div class="stat-value">48hr</div>
+                        <div class="stat-label">Average Turnaround</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-graphic-wrap">
+                <div class="code-panel glass">
+                    <div class="code-panel-header">
+                        <div class="code-dots">
+                            <span class="dot dot-primary"></span>
+                            <span class="dot dot-light"></span>
+                            <span class="dot dot-muted"></span>
+                        </div>
+                        <span class="code-filename">tribyte-architecture.js</span>
+                    </div>
+
+                    <div class="code-body">
+                        <div><span class="accent">const</span> <span style="color: var(--accent);">team</span> = {</div>
+                        <div class="code-indent">designer: <span class="accent">"Devesh Jangid"</span>, <span class="code-comment">// Modern UI & ML</span></div>
+                        <div class="code-indent">backend: <span style="color: var(--light);">"Rahul"</span>, <span class="code-comment">// Supercharged DB</span></div>
+                        <div class="code-indent">automation: <span class="accent">"Veer Pratap"</span> <span class="code-comment">// AI & Chatbots</span></div>
+                        <div>};</div>
+                        <div class="code-highlight">
+                            <span>&gt; Deploying highly scalable, low-cost solution...</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-tags">
+                        <span class="tag tag-primary">REACT</span>
+                        <span class="tag tag-default">NODE.JS</span>
+                        <span class="tag tag-default">MONGO DB</span>
+                        <span class="tag tag-primary">LLM INTEG</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-pad">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What TriByte Brings To The Table</h2>
+                <p class="section-subtitle">We combine visual styling, deep backend power, and smart features so you don't need three different agencies.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card glass glow-card">
+                    <div>
+                        <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+                        <h3 class="service-title">Modern Web Design</h3>
+                        <p class="service-desc">Tailor-made, pixel-perfect, and fully responsive layouts that capture your brand's essence. Designed to convert visitors into loyal clients.</p>
+                    </div>
+                    <ul class="service-list">
+                        <li><i class="fa-solid fa-check"></i> Custom Graphics & Typography</li>
+                        <li><i class="fa-solid fa-check"></i> Interactive Prototyping</li>
+                        <li><i class="fa-solid fa-check"></i> SEO-optimized Structures</li>
+                    </ul>
+                </div>
+
+                <div class="service-card glass glow-card">
+                    <div>
+                        <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+                        <h3 class="service-title">Robust Backend & Database</h3>
+                        <p class="service-desc">Blazing fast APIs and highly secure databases to handle your business transactions, user credentials, and scalable file structures.</p>
+                    </div>
+                    <ul class="service-list">
+                        <li><i class="fa-solid fa-check"></i> Secure User Authentication</li>
+                        <li><i class="fa-solid fa-check"></i> Automated DB Performance Tuning</li>
+                        <li><i class="fa-solid fa-check"></i> Real-time Sync capabilities</li>
+                    </ul>
+                </div>
+
+                <div class="service-card glass glow-card">
+                    <div>
+                        <div class="service-icon"><i class="fa-solid fa-robot"></i></div>
+                        <h3 class="service-title">AI & Conversational Bots</h3>
+                        <p class="service-desc">Automate client queries, leads collection, and business tasks with custom AI assistants and ML-driven personalization layers.</p>
+                    </div>
+                    <ul class="service-list">
+                        <li><i class="fa-solid fa-check"></i> 24/7 Context-Aware Chatbots</li>
+                        <li><i class="fa-solid fa-check"></i> LLM (OpenAI/Gemini) Integrations</li>
+                        <li><i class="fa-solid fa-check"></i> Personalized Recommendation systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Estimator Section -->
+    <!-- <section id="calculator" class="calculator section-pad">
+        <div class="container calc-wrap">
+            <div class="section-header">
+                <div class="eyebrow">Transparent & Fair</div>
+                <h2 class="section-title">Interactive Pricing Estimator</h2>
+                <p class="section-subtitle">We believe in transparent pricing. Adjust the parameters below to see an instant estimate for your project!</p>
+            </div>
+
+            <div class="calc-grid">
+                <div class="calc-form glass">
+                    <div>
+                        <div class="field-row">
+                            <label class="field-label">Number of Pages</label>
+                            <span id="page-display" class="field-badge">5 Pages</span>
+                        </div>
+                        <input id="page-slider" type="range" min="1" max="15" value="5">
+                        <div class="range-labels">
+                            <span>1 Page (Landing)</span>
+                            <span>15+ Pages</span>
+                        </div>
+                    </div>
+
+                    <div class="toggle-row">
+                        <div class="toggle-info">
+                            <i class="fa-solid fa-database"></i>
+                            <div>
+                                <h4 class="toggle-title">Database & CMS</h4>
+                                <p class="toggle-desc">Need dynamic pages, blogs, or database panels?</p>
+                            </div>
+                        </div>
+                        <label class="switch">
+                            <input id="db-switch" type="checkbox">
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+
+                    <div class="toggle-row">
+                        <div class="toggle-info">
+                            <i class="fa-solid fa-robot"></i>
+                            <div>
+                                <h4 class="toggle-title">AI / Chatbot Integration</h4>
+                                <p class="toggle-desc">Intelligent conversational agent for visitors.</p>
+                            </div>
+                        </div>
+                        <label class="switch">
+                            <input id="ai-switch" type="checkbox">
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label class="speed-label">Delivery Velocity</label>
+                        <div class="speed-grid">
+                            <label class="speed-option active" id="speed-standard">
+                                <input type="radio" name="speed" value="standard" checked>
+                                <span class="speed-title">Standard</span>
+                                <span class="speed-desc">Within 7-10 Days</span>
+                            </label>
+                            <label class="speed-option" id="speed-express">
+                                <input type="radio" name="speed" value="express">
+                                <span class="speed-title">Express Delivery</span>
+                                <span class="speed-desc">Within 3-4 Days (+25%)</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-dashboard glass">
+                    <div>
+                        <span class="price-label">Estimated Package Total</span>
+                        <div class="price-amount">
+                            <span class="currency">$</span>
+                            <span id="price-val">349</span>
+                        </div>
+                        <p class="price-note">This estimate is non-binding and covers development, initial deployment, and 30-day support.</p>
+                    </div>
+
+                    <div class="price-breakdown">
+                        <div class="price-row">
+                            <span>Base Web Setup</span>
+                            <span class="val">$149</span>
+                        </div>
+                        <div class="price-row">
+                            <span>Pages Surcharge</span>
+                            <span id="pages-cost" class="val">$200</span>
+                        </div>
+                        <div class="price-row">
+                            <span>Database Integration</span>
+                            <span id="db-cost" class="val muted">Not selected</span>
+                        </div>
+                        <div class="price-row">
+                            <span>AI Integration</span>
+                            <span id="ai-cost" class="val muted">Not selected</span>
+                        </div>
+                    </div>
+
+                    <button onclick="applyEstimateToEnquiry()" class="btn btn-primary btn-block price-lock-btn">
+                        Lock In This Estimate
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section-pad">
+        <div class="container">
+            <div class="section-header" style="margin-bottom: 3.5rem;">
+                <div class="eyebrow">Who We Are</div>
+                <h2 class="section-title">Meet the TriByte Engineers</h2>
+                <p class="section-subtitle">Three dedicated experts specialized in web design, rock-solid databases, and smart artificial intelligence.</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card glass glow-card">
+                    <div class="team-card-icon"><i class="fa-solid fa-code"></i></div>
+                    <div class="team-card-body">
+                        <div class="avatar">
+                            <img id="avatar-devesh" src="DJ.jpeg" alt="Devesh Jangid" onerror="this.style.display='none'; document.getElementById('devesh-svg').classList.remove('hidden');">
+                            <svg id="devesh-svg" class="hidden" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="team-name">Devesh Jangid</h3>
+                        <p class="team-role">Web Designer & Machine Learning</p>
+                        <p class="team-desc">Pioneering cutting-edge layout experiences, visual architectures, and integrating analytical data backends.</p>
+                    </div>
+                    <div class="team-github">
+                        <a href="https://github.com/Deveshjd" target="_blank" rel="noopener noreferrer" class="github-btn">
+                            <i class="fa-brands fa-github"></i> GitHub Profile
+                        </a>
+                    </div>
+                </div>
+
+                <div class="team-card glass glow-card">
+                    <div class="team-card-icon"><i class="fa-solid fa-database"></i></div>
+                    <div class="team-card-body">
+                        <div class="avatar">
+                            <img id="avatar-rahul" src="RS.jpeg" alt="Rahul" onerror="this.style.display='none'; document.getElementById('rahul-svg').classList.remove('hidden');">
+                            <svg id="rahul-svg" class="hidden" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="team-name">Rahul</h3>
+                        <p class="team-role">Backend & Database Management</p>
+                        <p class="team-desc">Architecting lightning-fast web APIs, solid query operations, data protection frameworks, and system schemas.</p>
+                    </div>
+                    <div class="team-github">
+                        <a href="https://github.com/Rahulsoni2414" target="_blank" rel="noopener noreferrer" class="github-btn">
+                            <i class="fa-brands fa-github"></i> GitHub Profile
+                        </a>
+                    </div>
+                </div>
+
+                <div class="team-card glass glow-card">
+                    <div class="team-card-icon"><i class="fa-solid fa-robot"></i></div>
+                    <div class="team-card-body">
+                        <div class="avatar">
+                            <img id="avatar-veer" src="VP.jpeg" alt="Veer Pratap" onerror="this.style.display='none'; document.getElementById('veer-svg').classList.remove('hidden');">
+                            <svg id="veer-svg" class="hidden" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="team-name">Veer Pratap</h3>
+                        <p class="team-role">AI Integration & ChatBots</p>
+                        <p class="team-desc">Bringing intelligence and conversational AI agents directly into your products to minimize customer retention workloads.</p>
+                    </div>
+                    <div class="team-github">
+                        <a href="https://github.com/veer714" target="_blank" rel="noopener noreferrer" class="github-btn">
+                            <i class="fa-brands fa-github"></i> GitHub Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+        <div class="footer-glow"></div>
+
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <div>
+                    <div class="footer-logo">
+                        <div class="logo-icon"><span>T</span></div>
+                        <span class="logo-title">Tri<span class="accent">Byte</span></span>
+                    </div>
+                    <p class="footer-desc">Accelerating startups and local businesses by providing gorgeous, fully functional, and secure web environments without the hefty premium price tags.</p>
+                </div>
+
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <span class="contact-label">General Inquiries</span>
+                            <a href="TriByte062026@gmail.com" class="contact-email">TriByte062026@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                        <div>
+                            <span class="contact-label">Tech Team Mailbox</span>
+                            <a href="TriByte062026@gmail.com" class="contact-email">TriByte062026@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrap-col">
+                <div class="contact-form-wrap glass">
+                    <h3 class="form-title">Get Started on Your Website</h3>
+                    <p class="form-subtitle">Fill in the fields below and we'll reply with a custom design proposal draft within 24 hours.</p>
+
+                    <div id="form-success-banner" class="success-banner hidden">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div>
+                            <strong>Enquiry Submitted Successfully!</strong>
+                            <span>We have recorded your details and auto-linked your pricing estimation. TriByte will email you shortly!</span>
+                        </div>
+                    </div>
+
+                    <form id="enquiry-form" action="https://formspree.io/f/meebpqrg" method="POST" class="enquiry-form">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label>Full Name</label>
+                                <input type="text" required name="customername" placeholder="XYZ">
+                            </div>
+                            <div class="form-field">
+                                <label>Business Email</label>
+                                <input type="email" required name="customeremail" placeholder="xyz@gmail.com">
+                            </div>
+                        </div>
+
+                        <div class="form-field" id="budget-field">
+                            <label>Estimated Budget (Optional)</label>
+                            <input type="text" id="form-budget" name="budget" placeholder="8000 rs">
+                        </div>
+
+                        <div class="form-field" id="message-field">
+                            <label>Message & Project Scope</label>
+                            <textarea rows="4" required id="form-message" name="message" placeholder="Describe what pages you need, functionality requirements, or any competitors' sites you love..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Submit My Project Plan</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <span>&copy; 2026 TriByte Development. All rights reserved.</span>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    <script src="page.js"></script>
+</body>
+</html>
